@@ -68,15 +68,15 @@ export default function ProfileCard() {
         {/* Stats */}
         <div className="flex flex-col p-4 border-t border-gray-200">
           <div className="flex justify-between mb-2">
-            <span className="font-semibold text-gray-700">Subscribers:</span>
+            <span className="font-semibold text-gray-700">Subscribers :</span>
             <span className="text-gray-900">{profileData.Subscribers}</span>
           </div>
           <div className="flex justify-between mb-2">
-            <span className="font-semibold text-gray-700">Videos:</span>
+            <span className="font-semibold text-gray-700">Videos :</span>
             <span className="text-gray-900">{profileData.Videos}</span>
           </div>
           <div className="flex justify-between mb-4">
-            <span className="font-semibold text-gray-700">Views:</span>
+            <span className="font-semibold text-gray-700">Views :</span>
             <span className="text-gray-900">{profileData.Views}</span>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function ProfileCard() {
             onClick={handleTopVideos}
             className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
           >
-            Check Top 10 Videos
+           Top 10 Videos
           </button>
         </div>
       </div>

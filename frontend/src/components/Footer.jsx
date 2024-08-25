@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="w-full bg-gray-800 text-white py-4 ">
       <div className="flex justify-center">
         <p className="text-sm">
-          Made with <span className="text-red-500">❤️</span> by <span className='underline italic'>Ashish Singh</span>
+          Made with <span className="text-red-500">❤️</span> by <span className='underline italic'>Akash Gaur</span>
         </p>
       </div>
     </footer>
